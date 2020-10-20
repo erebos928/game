@@ -1,0 +1,8 @@
+@charset "ISO-8859-1";
+    table, td{
+    border: solid black 1px;
+    }
+    thead{
+    background-color: gray;
+    }
+    
