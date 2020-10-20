@@ -2,17 +2,20 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title nnnnnnn</title>
+    <title>Title</title>
     <style>
     table, td{
     border: solid black 1px;
+    }
+    thead{
+    background-color: gray;
     }
     
     </style>
 </head>
 <body>
 <table>
-    <h1>hghghghgh</h1>
+    <thead><tr><td>Name</td><td>Surname</td><td>Age</td><td>Country</td></tr></thead>
     <tr th:each="player:${players}">
         <td th:text="${player.name}"></td>
         <td th:text="${player.surname}"></td>
