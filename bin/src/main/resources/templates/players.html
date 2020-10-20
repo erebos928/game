@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title nnnnnnn</title>
+</head>
+<body>
+<table>
+    <h1>hghghghgh</h1>
+    <tr th:each="player:${players}">
+        <td th:text="${player.name}"></td>
+        <td th:text="${player.age}"></td>
+        <td th:text="${player.nationality.country}"></td>
+    </tr>
+</table>
+</body>
+</html>
